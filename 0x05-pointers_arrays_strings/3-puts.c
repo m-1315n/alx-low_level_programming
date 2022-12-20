@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 
 /**
  * _puts - write a function that prints a string, following by a new line, to
