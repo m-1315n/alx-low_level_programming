@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _puts - write a function that prints a string followed by a new line to
- * stdout
+ * _puts - write a function that prints a string, followed by a new line, to
+ * stdout.
  *
  * @str: This is my input string
  *
@@ -14,7 +14,7 @@ void _puts(char *str)
 
 	for (index = 0; str[index] != '\0'; index++)
 	{
-		_putschar(str[index]);
+		_putchar(str[index]);
 	}
-	_putschar('\n');
+	_putchar('\n');
 }
