@@ -1,10 +1,10 @@
 #include "mai.h"
 
 /**
- * _puts - write a function that prints a string, following by a new line,
- * to stdout.
+ * _puts - write a function that prints a string, following by a new line, to
+ * stdout.
  *
- * @str: thi is my input string
+ * @str: this is my input string
  *
  */
 
