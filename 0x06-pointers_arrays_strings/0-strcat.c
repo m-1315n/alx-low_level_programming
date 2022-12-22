@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _stract - concatenates the string pointed by @src to
- * the end of the string pointed by @dest
+ * _stract - concatenates the string pointed to by @src to
+ * the end of the string pointed to by @dest
  * @dest: string that will be appended
  * @src: string to be concatenated upon
  *
@@ -11,6 +11,7 @@
 
 char *_stract(char *dest, char *src)
 {
+
 	int index = 0, dest_len = 0;
 
 	while (dest[index++])
