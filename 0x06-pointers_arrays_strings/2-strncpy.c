@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strncpy - fuction that copies a string
  * @dest: pointer to destination char
@@ -9,6 +8,7 @@
  */
 
 char *_strncpy(char *dest, char *src, int n);
+
 {
 	int i;
 
