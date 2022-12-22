@@ -11,7 +11,7 @@
 int _strcmp(char *s1, char *s2)
 {
 
-	int i = 0, diff - 0;
+	int i = 0, diff = 0;
 
 	while (1)
 	{
@@ -33,7 +33,7 @@ int _strcmp(char *s1, char *s2)
 			break;
 		}
 		else
-			i++
+			i++;
 	}
 	return (diff);
 }
