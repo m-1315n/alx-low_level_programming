@@ -4,19 +4,19 @@
  * _strncpy - fuction that copies a string
  * @dest: pointer to destination char
  * @src: pointer to source char
- * @n: number of bytes
- * Return: char
+ * @n: maximum number of bytes
+ * Return: returns
  */
+
 char *_strncpy(char *dest, char *src, int n);
 {
-	int i = 0;
+	int i;
 
-	while (i < n && *(src + i) != '\0')
-	{
-		*(dest + i) = *(src + i);
-		i++;
-	}
-while (i != n)
-	dest[i++] = '\0';
+	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[i] = src[i];
+
+	for ( ; i < n; i++)
+		dest[i] = '\0';
+
 	return (dest);
 }
